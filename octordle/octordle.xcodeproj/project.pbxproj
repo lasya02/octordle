@@ -17,6 +17,8 @@
 		A8FD05642A46067200CC4CCD /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05632A46067200CC4CCD /* GuessView.swift */; };
 		A8FD05662A46345900CC4CCD /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05652A46345900CC4CCD /* DataModel.swift */; };
 		A8FD05682A4639AF00CC4CCD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05672A4639AF00CC4CCD /* Global.swift */; };
+		A8FD056A2A48D98D00CC4CCD /* Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05692A48D98D00CC4CCD /* Letters.swift */; };
+		A8FD056C2A48DBB900CC4CCD /* keyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD056B2A48DBB900CC4CCD /* keyboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A8FD05632A46067200CC4CCD /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
 		A8FD05652A46345900CC4CCD /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		A8FD05672A4639AF00CC4CCD /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		A8FD05692A48D98D00CC4CCD /* Letters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letters.swift; sourceTree = "<group>"; };
+		A8FD056B2A48DBB900CC4CCD /* keyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +73,9 @@
 				A8FD05612A45FF7B00CC4CCD /* Guess.swift */,
 				A8FD05672A4639AF00CC4CCD /* Global.swift */,
 				A8FD05652A46345900CC4CCD /* DataModel.swift */,
+				A8FD05692A48D98D00CC4CCD /* Letters.swift */,
 				A8FD055B2A45EC7B00CC4CCD /* GridView.swift */,
+				A8FD056B2A48DBB900CC4CCD /* keyboardView.swift */,
 				A8FD05632A46067200CC4CCD /* GuessView.swift */,
 				A8FD054D2A43EAE300CC4CCD /* Assets.xcassets */,
 				A8FD054F2A43EAE300CC4CCD /* Preview Content */,
@@ -155,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FD056A2A48D98D00CC4CCD /* Letters.swift in Sources */,
 				A8FD05682A4639AF00CC4CCD /* Global.swift in Sources */,
 				A8FD05662A46345900CC4CCD /* DataModel.swift in Sources */,
+				A8FD056C2A48DBB900CC4CCD /* keyboardView.swift in Sources */,
 				A8FD054C2A43EAE000CC4CCD /* ContentView.swift in Sources */,
 				A8FD055E2A45F42D00CC4CCD /* Colors.swift in Sources */,
 				A8FD05642A46067200CC4CCD /* GuessView.swift in Sources */,

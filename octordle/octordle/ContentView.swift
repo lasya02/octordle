@@ -12,15 +12,23 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            VStack(spacing: 3){
-                GuessView(guess: $dataModel.guesses[0])
-                GuessView(guess: $dataModel.guesses[1])
-                GuessView(guess: $dataModel.guesses[2])
-                GuessView(guess: $dataModel.guesses[3])
-                GuessView(guess: $dataModel.guesses[4])
-                GuessView(guess: $dataModel.guesses[5])
+            VStack{
+                Spacer()
+                VStack(spacing: 3){
+                    GuessView(guess: $dataModel.guesses[0])
+                    GuessView(guess: $dataModel.guesses[1])
+                    GuessView(guess: $dataModel.guesses[2])
+                    GuessView(guess: $dataModel.guesses[3])
+                    GuessView(guess: $dataModel.guesses[4])
+                    GuessView(guess: $dataModel.guesses[5])
+                }
+                .frame(width: Global.boardWidth, height: 6 * Global.boardWidth / 5 )
+                Spacer()
+                keyboardView()
+                    .scaleEffect(Global.keyboardScale)
+                    .padding(.top)
+                Spacer()
             }
-            .frame(width: Global.boardWidth, height: 6 * Global.boardWidth / 5 )
             .toolbar{
                 ToolbarItem(placement: .navigationBarLeading){
                     Button{
