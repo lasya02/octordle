@@ -19,11 +19,15 @@ struct keyboardView: View {
                 ForEach(topKeyboard, id: \.self) { letter in
                     Letters(letter: letter)
                 }
+                .disabled(dataModel.disableKeyboard)
+                .opacity(dataModel.disableKeyboard ? 0.6 : 1 )
             }
             HStack(spacing: 2){
                 ForEach(middleKeyboard, id: \.self) { letter in
                     Letters(letter: letter)
                 }
+                .disabled(dataModel.disableKeyboard)
+                .opacity(dataModel.disableKeyboard ? 0.6 : 1 )
                 
             }
             HStack(spacing: 2){
@@ -36,10 +40,15 @@ struct keyboardView: View {
                 .frame(width: 60, height: 50)
                 .background(Color.gray)
                 .foregroundColor(.primary)
+                .disabled(dataModel.currentGuess.count < 5 || !dataModel.inPlay)
+                .opacity((dataModel.currentGuess.count < 5 || !dataModel.inPlay) ? 0.6 : 1 )
 
                 ForEach(bottomKeyboard, id: \.self) { letter in
                     Letters(letter: letter)
                 }
+                .disabled(dataModel.disableKeyboard)
+                .opacity(dataModel.disableKeyboard ? 0.6 : 1 )
+                
                 Button {
                     dataModel.removeLetter()
                 } label: {
@@ -49,6 +58,8 @@ struct keyboardView: View {
                 .frame(width: 40, height: 50)
                 .background(Color.gray)
                 .foregroundColor(.primary)
+                .disabled(dataModel.currentGuess.count == 0 || !dataModel.inPlay)
+                .opacity((dataModel.currentGuess.count == 0 || !dataModel.inPlay) ? 0.6 : 1)
             }
         }
     }

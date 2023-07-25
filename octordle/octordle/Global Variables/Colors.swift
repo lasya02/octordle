@@ -17,6 +17,9 @@ extension Color{
     static var undecided: Color {
         Color(UIColor(named: "undecided")!)
     }
+    static var misplaced: Color {
+        Color(UIColor(named: "misplaceder")!)
+    }
     static var systemBackground: Color {
         Color(.systemBackground)
     }

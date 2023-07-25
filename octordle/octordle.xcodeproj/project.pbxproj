@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8B13EC62A589FE600C8D846 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B13EC52A589FE600C8D846 /* FlipView.swift */; };
+		A8B13EC82A5DF41800C8D846 /* toastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B13EC72A5DF41800C8D846 /* toastView.swift */; };
+		A8B13ECA2A5DF76D00C8D846 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B13EC92A5DF76D00C8D846 /* Stats.swift */; };
+		A8CA4E012A6DC0810071427C /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA4E002A6DC0810071427C /* StatsView.swift */; };
 		A8FD054A2A43EAE000CC4CCD /* octordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05492A43EAE000CC4CCD /* octordleApp.swift */; };
 		A8FD054C2A43EAE000CC4CCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD054B2A43EAE000CC4CCD /* ContentView.swift */; };
 		A8FD054E2A43EAE300CC4CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FD054D2A43EAE300CC4CCD /* Assets.xcassets */; };
 		A8FD05512A43EAE300CC4CCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FD05502A43EAE300CC4CCD /* Preview Assets.xcassets */; };
-		A8FD055C2A45EC7B00CC4CCD /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD055B2A45EC7B00CC4CCD /* GridView.swift */; };
 		A8FD055E2A45F42D00CC4CCD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD055D2A45F42D00CC4CCD /* Colors.swift */; };
 		A8FD05622A45FF7B00CC4CCD /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05612A45FF7B00CC4CCD /* Guess.swift */; };
 		A8FD05642A46067200CC4CCD /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05632A46067200CC4CCD /* GuessView.swift */; };
@@ -19,15 +22,19 @@
 		A8FD05682A4639AF00CC4CCD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05672A4639AF00CC4CCD /* Global.swift */; };
 		A8FD056A2A48D98D00CC4CCD /* Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05692A48D98D00CC4CCD /* Letters.swift */; };
 		A8FD056C2A48DBB900CC4CCD /* keyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD056B2A48DBB900CC4CCD /* keyboardView.swift */; };
+		A8FD05722A4A020F00CC4CCD /* shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD05712A4A020F00CC4CCD /* shake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8B13EC52A589FE600C8D846 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		A8B13EC72A5DF41800C8D846 /* toastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toastView.swift; sourceTree = "<group>"; };
+		A8B13EC92A5DF76D00C8D846 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		A8CA4E002A6DC0810071427C /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		A8FD05462A43EAE000CC4CCD /* octordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = octordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FD05492A43EAE000CC4CCD /* octordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = octordleApp.swift; sourceTree = "<group>"; };
 		A8FD054B2A43EAE000CC4CCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8FD054D2A43EAE300CC4CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8FD05502A43EAE300CC4CCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A8FD055B2A45EC7B00CC4CCD /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		A8FD055D2A45F42D00CC4CCD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A8FD05612A45FF7B00CC4CCD /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
 		A8FD05632A46067200CC4CCD /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
@@ -35,6 +42,7 @@
 		A8FD05672A4639AF00CC4CCD /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		A8FD05692A48D98D00CC4CCD /* Letters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letters.swift; sourceTree = "<group>"; };
 		A8FD056B2A48DBB900CC4CCD /* keyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardView.swift; sourceTree = "<group>"; };
+		A8FD05712A4A020F00CC4CCD /* shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				A8FD05492A43EAE000CC4CCD /* octordleApp.swift */,
-				A8FD054B2A43EAE000CC4CCD /* ContentView.swift */,
-				A8FD055D2A45F42D00CC4CCD /* Colors.swift */,
-				A8FD05612A45FF7B00CC4CCD /* Guess.swift */,
-				A8FD05672A4639AF00CC4CCD /* Global.swift */,
-				A8FD05652A46345900CC4CCD /* DataModel.swift */,
-				A8FD05692A48D98D00CC4CCD /* Letters.swift */,
-				A8FD055B2A45EC7B00CC4CCD /* GridView.swift */,
-				A8FD056B2A48DBB900CC4CCD /* keyboardView.swift */,
-				A8FD05632A46067200CC4CCD /* GuessView.swift */,
+				A8FD056D2A49072700CC4CCD /* View */,
+				A8FD05702A49073E00CC4CCD /* Model View */,
+				A8FD056F2A49073900CC4CCD /* Model */,
+				A8FD056E2A49073000CC4CCD /* Global Variables */,
 				A8FD054D2A43EAE300CC4CCD /* Assets.xcassets */,
 				A8FD054F2A43EAE300CC4CCD /* Preview Content */,
 			);
@@ -89,6 +92,47 @@
 				A8FD05502A43EAE300CC4CCD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8FD056D2A49072700CC4CCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD054B2A43EAE000CC4CCD /* ContentView.swift */,
+				A8FD056B2A48DBB900CC4CCD /* keyboardView.swift */,
+				A8FD05692A48D98D00CC4CCD /* Letters.swift */,
+				A8FD05632A46067200CC4CCD /* GuessView.swift */,
+				A8B13EC72A5DF41800C8D846 /* toastView.swift */,
+				A8CA4E002A6DC0810071427C /* StatsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8FD056E2A49073000CC4CCD /* Global Variables */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD05672A4639AF00CC4CCD /* Global.swift */,
+				A8FD055D2A45F42D00CC4CCD /* Colors.swift */,
+				A8B13EC52A589FE600C8D846 /* FlipView.swift */,
+				A8FD05712A4A020F00CC4CCD /* shake.swift */,
+			);
+			path = "Global Variables";
+			sourceTree = "<group>";
+		};
+		A8FD056F2A49073900CC4CCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD05612A45FF7B00CC4CCD /* Guess.swift */,
+				A8B13EC92A5DF76D00C8D846 /* Stats.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8FD05702A49073E00CC4CCD /* Model View */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD05652A46345900CC4CCD /* DataModel.swift */,
+			);
+			path = "Model View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,14 +206,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8FD056A2A48D98D00CC4CCD /* Letters.swift in Sources */,
+				A8B13ECA2A5DF76D00C8D846 /* Stats.swift in Sources */,
+				A8B13EC62A589FE600C8D846 /* FlipView.swift in Sources */,
 				A8FD05682A4639AF00CC4CCD /* Global.swift in Sources */,
 				A8FD05662A46345900CC4CCD /* DataModel.swift in Sources */,
+				A8B13EC82A5DF41800C8D846 /* toastView.swift in Sources */,
+				A8FD05722A4A020F00CC4CCD /* shake.swift in Sources */,
 				A8FD056C2A48DBB900CC4CCD /* keyboardView.swift in Sources */,
 				A8FD054C2A43EAE000CC4CCD /* ContentView.swift in Sources */,
 				A8FD055E2A45F42D00CC4CCD /* Colors.swift in Sources */,
 				A8FD05642A46067200CC4CCD /* GuessView.swift in Sources */,
-				A8FD055C2A45EC7B00CC4CCD /* GridView.swift in Sources */,
 				A8FD054A2A43EAE000CC4CCD /* octordleApp.swift in Sources */,
+				A8CA4E012A6DC0810071427C /* StatsView.swift in Sources */,
 				A8FD05622A45FF7B00CC4CCD /* Guess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
